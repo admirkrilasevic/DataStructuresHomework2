@@ -2,7 +2,7 @@ package hw2;
 
 public class Algorithm {
 	
-	private String expression;
+	private String expression; //variable for storing the expression from user
 	private Stack<String> operators;
 	private Stack<Integer> values;
 	
