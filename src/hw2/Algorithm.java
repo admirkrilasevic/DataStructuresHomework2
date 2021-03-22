@@ -2,9 +2,9 @@ package hw2;
 
 public class Algorithm {
 	
-	private String expression; //variable for storing the expression from user
-	private Stack<String> operators;
-	private Stack<Integer> values;
+	private String expression; //storing the expression from user
+	private Stack<String> operators; // storing operators from expression
+	private Stack<Integer> values; // storing values from expression
 	
 	public Algorithm(String expression) {
 		this.expression = expression;
