@@ -58,9 +58,7 @@ public class Main {
 		if (count1 == count2) {															//if there is the same number of opened and closed 
 			return true;																//parenthesis then input is valid
 		}
-		else {
-			return false;
-		}
+		return false;
 	}
 
 }
