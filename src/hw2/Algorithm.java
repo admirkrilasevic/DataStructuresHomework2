@@ -15,9 +15,9 @@ public class Algorithm {
 	
 	public void calculate() {						//method calculate implements the algorithm
 		
-		String[] exprList = expression.split(" "); 	//a String array is created from expression, with whitespace as delimiter
+		String[] exprArr = expression.split(" "); 	//a String array is created from expression, with whitespace as delimiter
 		
-		for (String token : exprList) { 			//for-each loop to iterate the array 
+		for (String token : exprArr) { 				//for-each loop to iterate the array 
 			if (token.equals("(")) {				//token = open bracket - do nothing
 				
 			}
